@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel=stylesheet href="style.css">
+  <title>Survey FORM</title>
+</head>
+
+<body>
+  <div>
+    <h1 class="r1">Feedback Form</h1>
+
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="fname"> Username:</label>
+          </div>
+          <div class="col-75">
+
+            <input type="text" class="inputbox" name="username" placeholder="username" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Email id:</label>
+          </div>
+          <div class="col-75">
+
+            <input type="Email" class="inputbox" name="Email" placeholder="your Email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select class="inputbox" name="country">
+              <option value="India">India</option>
+              <option value="Russia">Russia</option>
+              <option value="Usa">Usa</option>
+              <option value="Israel">Israel</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject:</label>
+          </div>
+          <div class="col-75">
+            <textarea class="inputbox" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input class="r" type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
